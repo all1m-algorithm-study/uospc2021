@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
         try:
             prob_path = os.path.join("problems", prob)
-            pars_path = os.path.join(".testcases", prob.replace("_", "").replace("-", ""))
+            pars_path = os.path.join(".testcases", prob.replace("_", "").replace("-", "").lower())
             os.makedirs(pars_path, exist_ok=True)
 
             tc_root = os.path.join(prob_path, "testcases")
