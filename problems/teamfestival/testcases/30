@@ -1,0 +1,20 @@
+5 15 4
+T 2 g n y s
+C 4 s g y n
+W 2 n y s g
+V 4 g s n y
+X 4 s n g y
+A 2 g n y s
+J 4 n y g s
+K 2 n y g s
+D 1 s y n g
+Q 1 s n g y
+G 3 s g n y
+M 3 s g y n
+N 4 n g y s
+R 4 g s n y
+B 2 y n s g
+y 8 V A T K W X C J
+n 1 T
+s 10 W X K Q J V T C A D
+g 9 K C D W A T X V J

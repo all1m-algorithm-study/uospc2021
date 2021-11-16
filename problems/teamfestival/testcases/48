@@ -1,0 +1,26 @@
+4 15 10
+U 4 j s w b i o c g p z
+N 1 c p z s j g o b i w
+T 10 j b p z g w o c s i
+V 4 p s j c w z o g i b
+M 4 p z i g o j w c s b
+H 1 j s b p w g o z c i
+C 1 b j s g w c i p o z
+Q 2 g p i z c s w j o b
+Z 3 i w o z b c p j g s
+B 9 s z c w g o j p i b
+G 6 s j i g z o c b p w
+A 2 i o c w p z s j b g
+I 8 g p c j s z b o w i
+W 6 b g j w c z i s p o
+O 6 b o j i c g w p z s
+o 2 U N
+i 14 C G A W H Q U I T Z M N B V
+c 12 Z B Q A C V H T N G M U
+b 9 C V T Q N M U Z H
+z 12 B H A N M G U Z T C V Q
+w 11 G N M Z V U C T Q B H
+j 8 T C U M N Q V H
+g 1 U
+s 12 G Q V N Z M C B A U H T
+p 1 U

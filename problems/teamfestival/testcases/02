@@ -1,0 +1,19 @@
+9 16 2
+P 2 u c
+Z 1 u c
+F 1 u c
+S 1 c u
+N 1 u c
+C 1 u c
+Q 2 c u
+Y 2 u c
+M 1 u c
+U 1 c u
+W 2 c u
+R 1 u c
+V 2 c u
+T 1 c u
+X 1 c u
+I 1 c u
+u 6 N F S P Z C
+c 7 Q N P Z S F C

@@ -1,0 +1,21 @@
+9 8 12
+P 11 u s x q k l d p f a c m
+N 8 k u a q m f p d s l x c
+M 8 s a x c q u m f d k p l
+R 1 u s c q a d f m p x l k
+K 7 p f x l d s q c a k m u
+B 2 k a u x d c m p q l s f
+L 2 x c a m d l q s k u f p
+W 4 d p l c s k m f q a x u
+a 2 N P
+f 5 P N K M R
+x 7 N R P K M B L
+p 7 M R P K L N B
+s 2 P N
+l 8 B M R N P K L W
+d 3 M P N
+c 1 P
+m 7 L M R N B P K
+q 6 N B M P K R
+u 6 P R M B N K
+k 5 R M P K N

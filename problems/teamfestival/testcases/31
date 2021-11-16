@@ -1,0 +1,24 @@
+3 7 16
+F 13 y n v f l h j g i r b e m x t c
+R 6 t f x j n v y g h i l b c e r m
+X 5 c j y t g n i m h f r x b e v l
+C 15 n l f m t h c v r j e y i b g x
+G 15 x c v n r f m b g y l i e h j t
+K 7 c j n t x g l f m v e i b y r h
+S 15 c f m v b i n t e y r g x j l h
+f 2 R F
+g 7 C R S G F K X
+e 3 R X F
+x 2 F R
+l 6 C K X G F R
+i 6 F C G R X K
+c 3 X R F
+j 5 R F C G X
+v 1 F
+t 6 G X R F C K
+n 2 F R
+h 1 F
+r 3 X F R
+b 1 F
+m 2 R F
+y 2 R F

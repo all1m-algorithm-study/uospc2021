@@ -1,0 +1,18 @@
+4 10 7
+G 4 z l j t x c m
+R 6 l z m t c j x
+F 6 z x m t c l j
+W 7 l z x m t j c
+K 1 m c z t l j x
+H 2 l j t c m x z
+Q 3 t x l m j z c
+N 2 j c m t x l z
+Y 2 c j t l x m z
+Z 2 x m j c l z t
+c 7 F R W Q G H K
+j 9 N Y H K F R G Q W
+z 1 G
+m 8 G W F H K N Q R
+t 7 H R G Q K W F
+x 8 K R G Q F N H W
+l 6 H K G W R F

@@ -1,0 +1,8 @@
+9 5 2
+J 2 n i
+R 1 i n
+L 2 n i
+B 1 n i
+C 2 i n
+i 3 L J R
+n 4 L B J R
