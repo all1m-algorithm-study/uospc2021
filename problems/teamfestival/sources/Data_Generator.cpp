@@ -32,7 +32,7 @@ vector<char> pickMemberName(int N) {
 			int memberName = rnd.next(0, 25);
 			if (!checked[memberName]) {
 				checked[memberName] = true;
-				members.push_back(char('A' + memberName));
+				members.push_back(char('a' + memberName));
 				break;
 			}
 		}
@@ -64,7 +64,7 @@ vector<char> pickMemberTeam(int M, vector<char> teams) {
 			int team = rnd.next(0, M - 1);
 			if (!checked[team]) {
 				checked[team] = true;
-				memberTeam.push_back(teams[member]);
+				memberTeam.push_back(teams[team]);
 				break;
 			}
 		}

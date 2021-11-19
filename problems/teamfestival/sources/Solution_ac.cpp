@@ -1,4 +1,4 @@
-/*
+osep/*
 	team festival solution_ac
 */
 #include<iostream>
@@ -67,8 +67,9 @@ int main(void) {
 
 	// 결과 출력
 	for (int i = 0; i < 26; i++) {
-		if (!teamsMember[i].empty()) {
+		if (teamsSize[i] > 0)
 			cout << char('A' + i) << ' ';
+		if (!teamsMember[i].empty()) {
 			vector<char> teamsMembers;
 			while (!teamsMember[i].empty()) {
 				member = teamsMember[i].top().second;
