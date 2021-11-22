@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
 	
 	for (int i = 0; i < N; i++) {
 		int cityNum = rnd.next(1, N);
-		while (!made[cityNum]) {
+		while (made[cityNum]) {
 			cityNum = rnd.next(1, N);
 		}
 		list[i] = cityNum;
