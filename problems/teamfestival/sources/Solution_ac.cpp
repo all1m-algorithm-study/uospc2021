@@ -1,4 +1,4 @@
-osep/*
+/*
 	team festival solution_ac
 */
 #include<iostream>
