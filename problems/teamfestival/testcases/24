@@ -1,33 +1,36 @@
-1 21 11
-J 2 z r x m i y w t u f j
-P 2 j i y x r z w f m u t
-R 3 j r z u m t x y f w i
-O 11 w i j m x t r y u f z
-F 7 r j y u x t f z m i w
-X 6 u i j t r z x m y f w
-A 4 i z w f t u y x m r j
-E 5 u t j y f z w i x m r
-N 1 x r j i y u m w t z f
-G 10 w x m f t y u j i r z
-W 6 j u t f y w z r i m x
-S 6 z r y j t u i x f m w
-K 4 m r i z x u t f j w y
-T 8 x r u t y f j i z m w
-B 4 t w y u x m r f j i z
-Q 5 r u i x w t y f j m z
-M 9 r y j u z t m i f w x
-C 9 w j y x f r i m t u z
-Z 5 z u i f r m y t x j w
-V 1 t i r m j u w x z f y
-I 4 u f t z w m r i x y j
-w 9 P F X E A O R N J
-y 17 N P S W A E J O B X Q F R T K M G
-u 19 E T G M Q F A Z X B C N K O P W J S R
-i 8 R P O F X E J A
-f 2 J P
-m 8 P E R A F X O J
-x 14 J T P W K G R A E S O X F N
-z 18 J M C T G A R E P S Q K X W F O B N
-r 5 J F R P O
-j 9 E N P R F A X J O
-t 16 N P F G K A O B E J R S W X T Q
+9 25 10
+I 10 h y u j r d x p e q
+Q 1 e p j u x d h y r q
+O 1 x p q e y r u j d h
+E 6 x y r p u j d e q h
+B 1 u e r d y p q x j h
+C 4 p r d e y q j x u h
+N 8 p r h d x q j u e y
+P 4 d h y r x u j p q e
+S 4 p h e j q r d x u y
+D 8 e u h x q r y p j d
+G 5 r u e q d x y h p j
+X 6 j d u h y r p e q x
+A 6 j h p q x u y d r e
+U 10 h y q u j r x p d e
+H 4 j e x p y d q u r h
+L 10 d e y x q j p h u r
+T 3 x p u j q y h r e d
+R 5 r j e p q x d u y h
+F 5 x h q r d j e y u p
+Z 2 h r q p x j u y d e
+J 1 p h j x y u q d r e
+M 10 r p q y u e h j x d
+W 9 d x e j y r h p u q
+Y 4 r y e h d j x u q p
+V 1 u q d p j y r e x h
+x 24 Q U J C B M R I W A O X T S L P F D N H G Y Z E
+q 23 T Z N I L B M W F J A S E X U H O G P Q R C D
+h 17 E I O D B S U T L G A X H P C N Q
+d 7 B O I C N Q E
+y 17 O L I B E D T Q P H S C U A G X N
+u 18 S I D R G E X C H O B L T Q A P N U
+p 15 O N A E U G S Q D H X I B C P
+r 12 O S N P G X B C Q I D E
+j 11 E C I P D S G O B N Q
+e 10 D E I B P Q N S O C

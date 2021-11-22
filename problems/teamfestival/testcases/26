@@ -1,20 +1,30 @@
-3 1 18
-Q 2 o m c w x y v u h n f b i g r d p j
-g 1 Q
-o 1 Q
-b 1 Q
-f 1 Q
-i 1 Q
-n 1 Q
-x 1 Q
-u 1 Q
-w 1 Q
-c 1 Q
-r 1 Q
-h 1 Q
-j 1 Q
-y 1 Q
-m 1 Q
-p 1 Q
-d 1 Q
-v 1 Q
+7 4 25
+Y 11 f j g s a x t l u w b h e c n r z p k q o d m i y
+A 6 m i e x j c o t n w b f r h u y a s g k l d q z p
+M 20 p h e n m w a t s d y q r o x z u j c k g l i b f
+R 9 x b c u z e y j m d l t w h q a i s n o k g f r p
+b 1 Y
+n 1 Y
+a 1 Y
+u 4 R Y M A
+h 2 Y A
+f 1 Y
+t 1 Y
+m 2 A Y
+p 1 Y
+y 1 Y
+r 2 Y A
+o 2 Y A
+q 4 A Y R M
+g 1 Y
+e 3 A Y M
+i 2 Y A
+w 4 Y A M R
+d 3 M Y A
+j 4 Y R M A
+z 1 Y
+x 4 Y R M A
+l 4 A Y M R
+k 2 Y A
+s 1 Y
+c 2 A Y

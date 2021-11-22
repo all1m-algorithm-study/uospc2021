@@ -1,16 +1,20 @@
-8 3 12
-B 4 t f s i h m x p z j d b
-E 9 t i d m z b x s f p h j
-K 11 h z t d p b j x m f s i
-f 3 E K B
-m 1 B
-s 3 B E K
-p 2 B E
-i 3 B K E
-j 3 E B K
-t 3 B E K
-h 1 B
-z 1 B
-d 3 E B K
-x 3 E K B
-b 2 B E
+10 2 17
+G 3 q t u c f l g m b z p e d j o w s
+C 3 z c w u d s j q l g o m e t b f p
+d 1 G
+z 1 G
+g 1 G
+j 1 G
+o 2 C G
+m 2 C G
+w 2 G C
+l 1 G
+e 2 C G
+f 2 G C
+b 1 G
+u 2 G C
+q 1 G
+t 1 G
+p 2 G C
+s 2 G C
+c 1 G

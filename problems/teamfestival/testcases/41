@@ -1,34 +1,20 @@
-4 11 22
-P 12 q y f h i v u t b e o z m l k r w x g j c d
-O 19 t b m u x g j q e w z v o h c f d y r i k l
-N 3 o m f d k c i b j w x q g t e r y v h l z u
-I 17 y k i x b j l d m z c q r o g t f u w h v e
-M 6 z g k l m b i o r y u d f c h t w j e x v q
-J 8 b i u z x c k j y d e o q f v g r l m h t w
-X 4 v m c l h y r f j d g q z x k w b u e i o t
-D 1 z j x r c b g t y e k w q h m d o u l f v i
-C 22 j m x g c u t i y b v f z w e d k q r h l o
-T 20 m c d v k b l o e j g u r i z h x y w t f q
-L 3 b e y q j d m k h o l r i v f c t x w u g z
-o 1 P
-x 5 I N M O P
-z 1 P
-g 7 I N J P X O M
-r 4 P I N O
-w 10 C J X D N T I P M O
-v 3 P O N
-m 1 P
-y 5 M O P N I
-q 8 M O X P D I N J
-i 4 P N I O
-j 4 P N I O
-k 9 X I N J M D C O P
-f 2 O P
-h 11 X C I N T M L J D P O
-c 2 O P
-t 3 N P O
-u 8 D P O I N X M J
-e 8 O P M X I D N J
-d 2 P O
-b 6 I O N M P J
-l 4 I O P N
+10 14 5
+Y 3 l i e z k
+Q 2 l e z k i
+K 4 k l i z e
+C 1 k l e i z
+A 1 i l k e z
+F 2 z l k i e
+P 2 z k l i e
+U 4 l z i e k
+B 2 z e i k l
+I 3 k l e z i
+L 4 z e l k i
+O 4 z e k l i
+S 1 k z l i e
+N 1 e l z k i
+z 1 Y
+i 13 O S Q U K F C Y P A B L I
+e 1 Y
+k 14 O Y L K P A C S I U Q B F N
+l 13 Y B Q F C L I P O K S A U

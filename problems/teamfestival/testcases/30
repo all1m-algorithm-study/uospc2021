@@ -1,20 +1,20 @@
-5 15 4
-T 2 g n y s
-C 4 s g y n
-W 2 n y s g
-V 4 g s n y
-X 4 s n g y
-A 2 g n y s
-J 4 n y g s
-K 2 n y g s
-D 1 s y n g
-Q 1 s n g y
-G 3 s g n y
-M 3 s g y n
-N 4 n g y s
-R 4 g s n y
-B 2 y n s g
-y 8 V A T K W X C J
-n 1 T
-s 10 W X K Q J V T C A D
-g 9 K C D W A T X V J
+7 10 9
+C 3 j f b r p x z i t
+W 4 f x i b r t z p j
+P 1 p x b t i r z f j
+F 8 i b z x t r p j f
+R 8 z f b r j x i t p
+N 3 t j z i f b r x p
+L 5 f i b z t x p r j
+A 3 p f x z j r i t b
+Q 7 i x j r t z f p b
+D 9 r p i b j f t z x
+j 5 P R W C F
+f 2 W C
+t 8 R W P C L N A F
+p 7 C R W P F N L
+x 2 W C
+z 1 C
+r 4 W P C F
+b 9 C L R F A P W N Q
+i 10 N R L W Q P F C A D

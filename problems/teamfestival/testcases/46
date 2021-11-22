@@ -1,18 +1,16 @@
-8 13 4
-B 3 u y j d
-A 2 u y d j
-N 4 y d j u
-I 4 u j d y
-M 3 j y u d
-S 1 y u d j
-D 1 d u j y
-J 1 y j d u
-E 1 y u j d
-L 4 j y u d
-V 3 j d u y
-R 3 d y u j
-F 1 y u d j
-u 2 A B
-j 5 N I B A M
-y 8 D S J A B M I N
-d 13 A I S M L F E J N B R D V
+6 12 3
+I 3 t j o
+B 2 t j o
+L 1 j t o
+Y 1 o t j
+M 2 j o t
+Q 2 t j o
+C 2 t j o
+K 1 j t o
+X 3 j o t
+V 2 o t j
+E 1 o t j
+O 2 t o j
+t 1 I
+j 4 B Y I L
+o 8 B L C K I Q M Y
