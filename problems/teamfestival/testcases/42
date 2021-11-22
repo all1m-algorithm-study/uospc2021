@@ -1,0 +1,16 @@
+8 3 12
+B 4 t f s i h m x p z j d b
+E 9 t i d m z b x s f p h j
+K 11 h z t d p b j x m f s i
+f 3 E K B
+m 1 B
+s 3 B E K
+p 2 B E
+i 3 B K E
+j 3 E B K
+t 3 B E K
+h 1 B
+z 1 B
+d 3 E B K
+x 3 E K B
+b 2 B E

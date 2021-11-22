@@ -1,0 +1,20 @@
+7 10 9
+C 3 j f b r p x z i t
+W 4 f x i b r t z p j
+P 1 p x b t i r z f j
+F 8 i b z x t r p j f
+R 8 z f b r j x i t p
+N 3 t j z i f b r x p
+L 5 f i b z t x p r j
+A 3 p f x z j r i t b
+Q 7 i x j r t z f p b
+D 9 r p i b j f t z x
+j 5 P R W C F
+f 2 W C
+t 8 R W P C L N A F
+p 7 C R W P F N L
+x 2 W C
+z 1 C
+r 4 W P C F
+b 9 C L R F A P W N Q
+i 10 N R L W Q P F C A D

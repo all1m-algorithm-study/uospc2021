@@ -1,0 +1,24 @@
+10 4 19
+U 3 k a p l m e g c h w v q t n b s r j d
+R 9 a e s l v k q h c w r g d j b m p n t
+Q 9 j c g h p b e t s n r k m v d w q l a
+D 9 b d q s n w k e c m p h a r t g v j l
+v 4 R D Q U
+m 4 D R U Q
+q 4 Q D R U
+g 2 R U
+w 1 U
+p 2 U R
+l 4 R D Q U
+c 3 Q R U
+k 3 U R Q
+t 1 U
+e 2 R U
+j 2 R U
+b 1 U
+h 1 U
+n 3 Q U R
+r 2 U R
+d 2 U R
+s 1 U
+a 3 U Q R
