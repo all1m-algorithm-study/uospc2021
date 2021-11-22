@@ -1,32 +1,32 @@
 /*
-	UOSPC_Libary Á¤´ä ÄÚµå
-
-	1) ÀÔ·Â¹Þ±â
-
-	2) ºó ÀÚ¸®(C) Áß¿¡ ÁÖº¯¿¡ »ç¶÷ÀÌ ¾É¾ÆÀÖ´Â ÀÚ¸®(P)°¡ ¾ø´Â °æ¿ì count
-
+	UOSPC_Libary ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½
+ 
+	1) ï¿½Ô·Â¹Þ±ï¿½
+ 
+	2) ï¿½ï¿½ ï¿½Ú¸ï¿½(C) ï¿½ß¿ï¿½ ï¿½Öºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¾ï¿½ï¿½Ö´ï¿½ ï¿½Ú¸ï¿½(P)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ count
+ 
 */
 #include<iostream>
-
+ 
 using namespace std;
-
+ 
 bool isInside(int x, int y, int N, int M) {
 	return (0 <= x && x < N && 0 <= y && y < M);
 }
-
+ 
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0); cout.tie(0);
-
+ 
 	int N, M;
 	char map[100][100] = {};
-
+ 
 	// 1)
 	cin >> N >> M;
 	for (int i = 0; i < N; i++)
 		for (int j = 0; j < M; j++)
 			cin >> map[i][j];
-
+ 
 	// 2)
 	int dx[4] = { -1, 0, 1, 0 }, dy[4] = { 0, -1, 0, 1 };
 	int ans = 0;
@@ -46,8 +46,8 @@ int main(void) {
 			}
 		}
 	}
-
+ 
 	cout << ans << '\n';
-
+ 
 	return 0;
 }

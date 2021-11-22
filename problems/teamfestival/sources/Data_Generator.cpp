@@ -1,13 +1,13 @@
 /*
-	teamfestival data_generator Å×½ºÆ®ÄÉÀÌ½º »ý¼º ÄÚµå
-
+	teamfestival data_generator ï¿½×½ï¿½Æ®ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½
+ 
 */
 #include "testlib.h"
 #include<iostream>
 #include<vector>
-
+ 
 using namespace std;
-
+ 
 vector<char> pickTeamName(int M) {
 	bool checked[26] = {};
 	vector<char> teams;
@@ -23,7 +23,7 @@ vector<char> pickTeamName(int M) {
 	}
 	return teams;
 }
-
+ 
 vector<char> pickMemberName(int N) {
 	bool checked[26] = {};
 	vector<char> members;
@@ -39,7 +39,7 @@ vector<char> pickMemberName(int N) {
 	}
 	return members;
 }
-
+ 
 vector<char> pickTeamMember(int N, vector<char> members) {
 	bool checked[26] = {};
 	vector<char> teamMember;
@@ -55,7 +55,7 @@ vector<char> pickTeamMember(int N, vector<char> members) {
 	}
 	return teamMember;
 }
-
+ 
 vector<char> pickMemberTeam(int M, vector<char> teams) {
 	bool checked[26] = {};
 	vector<char> memberTeam;
@@ -71,40 +71,40 @@ vector<char> pickMemberTeam(int M, vector<char> teams) {
 	}
 	return memberTeam;
 }
-
+ 
 int main(int argc, char* argv[]) {
 	ios::sync_with_stdio(false);
 	cin.tie(0); cout.tie(0);
-
+ 
 	registerGen(argc, argv, 1);
-
+ 
 	// 1)
 	int T = rnd.next(1, 10);
 	int N = rnd.next(1, 26);
 	int M = rnd.next(1, 26);
-
-	// 2) ´ë¹®ÀÚ Áß¿¡ M°³ »Ì±â
+ 
+	// 2) ï¿½ë¹®ï¿½ï¿½ ï¿½ß¿ï¿½ Mï¿½ï¿½ ï¿½Ì±ï¿½
 	vector<char> teams = pickTeamName(M);
-
-	// 3) ¼Ò¹®ÀÚ Áß¿¡ N°³ »Ì±â
+ 
+	// 3) ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ß¿ï¿½ Nï¿½ï¿½ ï¿½Ì±ï¿½
 	vector<char> members = pickMemberName(N);
-
-	// 4) µ¿¾Æ¸® º° ÃÖ´ë ½ÅÀÔ µ¿¾Æ¸®¿ø ¼ö
+ 
+	// 4) ï¿½ï¿½ï¿½Æ¸ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½ï¿½
 	int teamSize[26] = {};
 	for (char team : teams) {
 		teamSize[team - 'A'] = rnd.next(1, N);
 	}
-
-	// 5) µ¿¾Æ¸®¿ø º° Áö¿ø µ¿¾Æ¸® ¼ö
+ 
+	// 5) ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Æ¸ï¿½ ï¿½ï¿½
 	int memberSize[26] = {};
 	for (char member : members) {
 		memberSize[member - 'a'] = rnd.next(1, M);
 	}
-
+ 
 	cout << T << ' ' << M << ' ' << N << '\n';
 	for (char team : teams) {
 		cout << team << ' ' << teamSize[team - 'A'] << ' ';
-		// 5) µ¿¾Æ¸® º° ½ÅÀÔ µ¿¾Æ¸®¿ø ¼±È£µµ
+		// 5) ï¿½ï¿½ï¿½Æ¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½
 		vector<char> teamMember = pickTeamMember(N, members);
 		for (int j = 0; j < teamMember.size() - 1; j++)
 			cout << teamMember[j] << ' ';
@@ -117,6 +117,6 @@ int main(int argc, char* argv[]) {
 			cout << memberTeam[j] << ' ';
 		cout << memberTeam[memberTeam.size() - 1] << '\n';
 	}
-
+ 
 	return 0;
 }

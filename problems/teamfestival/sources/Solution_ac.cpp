@@ -11,8 +11,8 @@ int main(void) {
 	cin.tie(0); cout.tie(0);
 
 	int T, M, N;
-	int teamMemberPriority[26][26] = {}; // ['A']['a'] = AÆÀ¿¡¼­ a Áö¿øÀÚ¿¡ ´ëÇÑ ¼±È£µµ ( ³·À»¼ö·Ï ³ôÀ½ )
-	int teamsSize[26] = {}; // ['A'] = AÆÀ¿¡¼­ ¸î ¸í »ÌÀ»Áö
+	int teamMemberPriority[26][26] = {}; // ['A']['a'] = Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ a ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+	int teamsSize[26] = {}; // ['A'] = Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	priority_queue<pair<int, char>> teamsMember[26];
 	queue<char> membersTeam[26];
@@ -23,7 +23,7 @@ int main(void) {
 	int teamSize, teamN;
 	char team, member;
 
-	// M°³ÀÇ µ¿¾Æ¸®¿¡ ´ëÇÑ Á¤º¸
+	// Mï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	for (int i = 0; i < M; i++) {
 		cin >> team >> teamSize;
 		teamsSize[team - 'A'] = teamSize;
@@ -33,7 +33,7 @@ int main(void) {
 		}
 	}
 
-	// N¸íÀÇ Áö¿øÀÚ¿¡ ´ëÇÑ Á¤º¸
+	// Nï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	for (int i = 0; i < N; i++) {
 		cin >> member >> teamN;
 		for (int j = 0; j < teamN; j++) {
@@ -43,9 +43,9 @@ int main(void) {
 		waitingList.push(member);
 	}
 
-	// TÀÏ µ¿¾È ¸ÅÄª ½ÃÀÛ
+	// Tï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Äª ï¿½ï¿½ï¿½ï¿½
 	for (int i = 0; i < T; i++) {
-		// µ¿¾Æ¸®¿¡ Áö¿øÇÏ±â
+		// ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
 		while (!waitingList.empty()) {
 			member = waitingList.front();
 			waitingList.pop();
@@ -55,7 +55,7 @@ int main(void) {
 				teamsMember[team - 'A'].push({ teamMemberPriority[team - 'A'][member - 'a'], member });
 			}
 		}
-		// µ¿¾Æ¸®¿¡¼­ ÄÆÇÏ±â
+		// ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï±ï¿½
 		for (int j = 0; j < 26; j++) {
 			while (teamsMember[j].size() > teamsSize[j]) {
 				pair<int, char> t = teamsMember[j].top();
@@ -65,20 +65,26 @@ int main(void) {
 		}
 	}
 
-	// °á°ú Ãâ·Â
+	// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 	for (int i = 0; i < 26; i++) {
-		if (teamsSize[i] > 0)
-			cout << char('A' + i) << ' ';
-		if (!teamsMember[i].empty()) {
+		if (teamsSize[i] > 0){
+			cout << char('A' + i);
+
 			vector<char> teamsMembers;
 			while (!teamsMember[i].empty()) {
 				member = teamsMember[i].top().second;
 				teamsMember[i].pop();
 				teamsMembers.push_back(member);
 			}
-			for (int j = teamsMembers.size() - 1; j > 0; j--)
-				cout << teamsMembers[j] << ' ';
-			cout << teamsMembers[0] << '\n';
+			if (teamsMembers.empty()) {
+				cout << '\n';
+			}
+			else {
+				cout << ' ';
+				for (int j = teamsMembers.size() - 1; j > 0; j--)
+					cout << teamsMembers[j] << ' ';
+				cout << teamsMembers[0] << '\n';
+			}
 		}
 	}
 }

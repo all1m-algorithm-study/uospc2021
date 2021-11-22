@@ -1,9 +1,9 @@
 /*
-	UOSPC_Library Å×½ºÆ®ÄÉÀÌ½º »ý¼º ÄÚµå
+	UOSPC_Library í…ŒìŠ¤íŠ¸ì¼€ì´ìŠ¤ ìƒì„± ì½”ë“œ
 	
-	1) 1 <= N, M <= 100 »çÀÌÀÇ ¼ýÀÚ¸¦ ·£´ýÇÏ°Ô »ý¼º
-	2) N x M Å©±âÀÇ char ¹è¿­ ¼±¾ð ÈÄ Å×µÎ¸® 'W' À¸·Î ÀÔ·Â
-	3) ³ª¸ÓÁö ºÎºÐ¿¡ ´ëÇØ¼­ ·£´ýÇÏ°Ô '.', 'P', 'C' ¸¦ ÀÔ·Â
+	1) 1 <= N, M <= 100 ì‚¬ì´ì˜ ìˆ«ìžë¥¼ ëžœë¤í•˜ê²Œ ìƒì„±
+	2) N x M í¬ê¸°ì˜ char ë°°ì—´ ì„ ì–¸ í›„ í…Œë‘ë¦¬ 'W' ìœ¼ë¡œ ìž…ë ¥
+	3) ë‚˜ë¨¸ì§€ ë¶€ë¶„ì— ëŒ€í•´ì„œ ëžœë¤í•˜ê²Œ '.', 'P', 'C' ë¥¼ ìž…ë ¥
 */
 #include "testlib.h"
 #include<iostream>
