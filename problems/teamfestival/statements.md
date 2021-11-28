@@ -50,7 +50,7 @@ B b c
 C d e
 ```
 
-![teamfestival_img1](C:\Users\sochu\바탕 화면\study\github\uospc2021\problems\teamfestival\images\teamfestival_img1.png)
+![teamfestival_img1](./images/teamfestival_img1.png)
 
 ## 예제2
 
