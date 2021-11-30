@@ -6,7 +6,7 @@ UOSPC는 서울시립대학교 학생들의 PS(Problem Solving)능력 증진, IC
 
 ## 대회 포스터
 
-포스터는 정상윤 님(@Bingha-Jeong)께서 제작해주셨습니다.
+포스터는 정상윤 님께서 제작해주셨습니다.
 
 ![](./poster2021.png)
 
