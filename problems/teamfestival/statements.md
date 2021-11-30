@@ -50,7 +50,7 @@ B b c
 C d e
 ```
 
-![teamfestival_img1](./images/teamfestival_img1.png)
+![teamfestival_img1](./images/teamfestival_img01.png)
 
 ## 예제2
 
