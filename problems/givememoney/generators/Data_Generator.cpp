@@ -3,17 +3,17 @@
 */
 #include "testlib.h"
 #include<iostream>
- 
+
 using namespace std;
- 
+
 int N;
 int list[100000] = {};
 bool made[100001] = {};
- 
+
 int main(int argc, char* argv[]) {
 	ios::sync_with_stdio(false);
 	cin.tie(0); cout.tie(0);
- 
+
 	registerGen(argc, argv, 1);
 	
 	N = rnd.next(1, 100000);
@@ -31,6 +31,6 @@ int main(int argc, char* argv[]) {
 	for (int i = 0; i < N - 1; i++)
 		cout << list[i] << ' ';
 	cout << list[N - 1] << '\n';
- 
+
 	return 0;
 }

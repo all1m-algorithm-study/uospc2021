@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 
 	registerGen(argc, argv, 1);
 
-	int N = rnd.next(1, 100000);
+	int N = 100000;
 
 	cout << N << '\n';
 	for (int i = 0; i < N - 1; i++) {
