@@ -17,6 +17,7 @@ UOSPC는 서울시립대학교 학생들의 PS(Problem Solving)능력 증진, IC
 * 이현석 ([@travelbeeee](https://github.com/travelbeeee)): 문제 출제 및 검수
 * 정상윤 ([@Bingha-Jeong](https://github.com/Bingha-Jeong)): 문제 출제 및 검수
 * 최문기 ([@iknoom](https://github.com/iknoom)): 문제 출제 및 검수
+* 최연웅 ([@yonsweng](https://github.com/yonsweng)): 문제 검수
 * 정인우 ([@pasly0920](https://github.com/pasly0920)): 문제 검수
 * 주현도: 문제 검수
 * 김민호 교수님 ([서울시립대학교 컴퓨터과학부 교수](http://www.minho-kim.com/)): 대회 운영 및 검수
