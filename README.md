@@ -4,6 +4,14 @@
 
 UOSPC는 서울시립대학교 학생들의 PS(Problem Solving)능력 증진, ICPC, 코딩테스트 등을 대비하기 위하여 2017년부터 개최된 프로그래밍 경진대회입니다. 한정된 시간동안 주어진 문제를 해결하는 것이 목표입니다.
 
+## 대회 기록
+
+문제 풀이 및 대회 후기는 [editorial](/editorial), 실제 스코어보드는 [scoreboards](/scoreboards) 디렉토리에서 확인하실 수 있습니다.
+
+* [문제 풀이](/editorial/UOSPC%202021%20후기%20및%20시상.pdf)
+* [Division 1 스코어보드](/scoreboards/div1-scoreboard.png)
+* [Division 2 스코어보드](/scoreboards/div2-scoreboard.png)
+
 ## 대회 포스터
 
 포스터는 정상윤 님께서 제작해주셨습니다.
