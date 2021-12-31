@@ -12,6 +12,12 @@ UOSPC는 서울시립대학교 학생들의 PS(Problem Solving)능력 증진, IC
 * [Division 1 스코어보드](/scoreboards/div1-scoreboard.png)
 * [Division 2 스코어보드](/scoreboards/div2-scoreboard.png)
 
+## 시상식
+
+UOSPC 2021은 COVID19의 여파를 고려하여 온라인으로 진행되었고, [12월 28일 서순탁 총장님과 대면 시상식을 진행하였습니다.](https://www.uos.ac.kr/korColumn/view.do?list_id=about02&seq=242&sort=1&menuid=2000001009005000000)
+
+![시상식](images/20211230150131.jpg.crdownload)
+
 ## 대회 포스터
 
 포스터는 정상윤 님께서 제작해주셨습니다.
